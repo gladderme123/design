@@ -1,0 +1,26 @@
+html,
+body,
+#app {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+}
+
+canvas {
+    display: block;
+}
+
+#hud {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    font: 600 16px system-ui;
+    color: #fff;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px 14px;
+    border-radius: 8px;
+}
